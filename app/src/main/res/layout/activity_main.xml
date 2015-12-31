@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.udacity.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_app_titles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="@string/app_heading"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:typeface="sans"/>
+
+    <LinearLayout
+        android:id="@+id/ll_app_titles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_app_title1"
+            style="@style/MAP_Button_AppTitle"
+            android:text="@string/app_title_1"/>
+
+        <Button
+            android:id="@+id/btn_app_title2"
+            style="@style/MAP_Button_AppTitle"
+            android:text="@string/app_title_2"/>
+
+        <Button
+            android:id="@+id/btn_app_title3"
+            style="@style/MAP_Button_AppTitle"
+            android:text="@string/app_title_3"/>
+
+        <Button
+            android:id="@+id/btn_app_title4"
+            style="@style/MAP_Button_AppTitle"
+            android:text="@string/app_title_4"/>
+
+        <Button
+            android:id="@+id/btn_app_title5"
+            style="@style/MAP_Button_AppTitle"
+            android:text="@string/app_title_5"/>
+
+        <Button
+            android:id="@+id/btn_app_title6"
+            style="@style/MAP_Button_AppTitle"
+            android:text="@string/app_title_6"/>
+    </LinearLayout>
+</RelativeLayout>
